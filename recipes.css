@@ -15,3 +15,8 @@ th {
     color: rgb(228, 156, 156);
     font-size: x-large;
     }
+
+.recipe-title {
+    color: orange;
+    font-family:Helvetica, sans-serif;
+}
