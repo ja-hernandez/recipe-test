@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Jose's Recipes</title>
         <link rel="stylesheet" href="recipes.css" type="text/css">
+        <script src='script.js'></script>
     </head>
     <body>
     <h1>Jose's Recipes</h1>
@@ -67,7 +68,7 @@
                 <td class="amount">1 9" uncooked</td>
             </tr>
        </table>
-       <ol>
+       <ol id='directions-list'>
            <li id="first-direction">Preheat oven to 350 degree F</li>
            <li>Wrap sweet potatoes in foil and bake for 1 hour in the oven.</li>
            <li>When done, let cool. Scrape the pulp out of the skin, transfer to a large bowl, and mash. Set aside. Should yield 2 cups mashed sweet potato</li>
@@ -77,6 +78,8 @@
            <li>Bake for 1 hour, making sure center of pie is firm but not burnt</li>
        </ol>
        <p><em>Yields 9" Pie. No serving suggestion needed</em></p>
+
+       <button id='directions-start' data-current='0'>Start</button>
 
        <h3>Cushaw (squash) Pie</h3>
        <table>
